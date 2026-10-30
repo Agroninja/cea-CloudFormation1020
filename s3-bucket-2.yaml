@@ -1,0 +1,10 @@
+#Cloud Formation Template to create s3 bucket
+#Description: This Template create an s3 bucket stack with the name 'theagroninja-se-bucket2-yaml'
+
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'CloudFormation template for s3 bucket'
+Resources:
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: 'theagroninja-s3-bucket2-yaml'
